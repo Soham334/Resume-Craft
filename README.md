@@ -81,3 +81,95 @@ Create, update, and delete resumes securely
 Export printable, PDF-ready resume templates
 
 Admin users can manage all resumes via the Django admin dashboard
+```
+Frontend Setup (React)
+cd frontend
+npm install
+
+
+To run both backend and frontend simultaneously:
+
+npm run start-all
+
+
+Then open your browser at:
+👉 http://127.0.0.1:8000/
+
+📄 Usage Guide
+
+Access the animated landing page built with GSAP + Locomotive Scroll
+
+Register or log in to manage resumes
+
+Create, update, and delete resumes securely
+
+Export printable, PDF-ready resume templates
+
+Admin users can manage all resumes via the Django admin dashboard
+
+🧪 Testing
+
+Run backend unit tests to verify models, authentication, and API security:
+
+python manage.py test resumesite
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to open a pull request or fork the repository to enhance features, improve UI, or optimize code.
+
+Steps:
+
+Fork the repo
+
+Create a new branch (feature-branch-name)
+
+Commit your changes (git commit -m "Added new feature")
+
+Push to the branch (git push origin feature-branch-name)
+
+Open a Pull Request
+
+📬 Contact
+
+Author: Soham Shukla
+Email: sohamshukla23@gmail.com
+LinkedIn: www.linkedin.com/in/soham-shukla334
+GitHub: github.com/Soham334
+
+🧾 License
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
+
+MIT License
+
+Copyright (c) 2025 Soham Shukla
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+⭐ If you found this project helpful, please give it a star on GitHub!
+
+
+---
+
+✅ Just copy this into your VS Code `README.md` file, commit, and push — your repository will look **professional, complete, and recruiter-ready**.  
+
+Would you like me to make a **short description for the GitHub About section** too (the one that appears *un
