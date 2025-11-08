@@ -81,3 +81,81 @@ Create, update, and delete resumes securely
 Export printable, PDF-ready resume templates
 
 Admin users can manage all resumes via the Django admin dashboard
+```
+🧪 Testing
+Run backend unit tests to verify models, authentication, and API security:
+python manage.py test resumesite
+
+
+🖼️ Screenshots (Optional)
+You can add screenshots of your app here for visual appeal:
+/screenshots
+  ├── homepage.png
+  ├── dashboard.png
+  └── resume_preview.png
+
+Example:
+![Resume Craft Dashboard](screenshots/dashboard.png)
+
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to open a pull request or fork the repository to enhance features, improve UI, or optimize code.
+Steps:
+
+
+Fork the repo
+
+
+Create a new branch (feature-branch-name)
+
+
+Commit your changes (git commit -m "Added new feature")
+
+
+Push to the branch (git push origin feature-branch-name)
+
+
+Open a Pull Request
+
+
+
+📬 Contact
+Author: [Your Name]
+Email: your.email@example.com
+LinkedIn: linkedin.com/in/yourprofile
+GitHub: github.com/yourusername
+
+🧾 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+MIT License
+
+Copyright (c) 2025 [Your Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+
+
+🌟 Acknowledgements
+
+
+Django REST Framework for backend API support
+
+
+GSAP & Locomotive Scroll for animations
+
+
+Bootstrap 5 for UI styling
+
+
+Axios for smooth frontend-backend data flow
+
+
+
+⭐ If you found this project helpful, please give it a star on GitHub!
+
+---
+
+Would you like me to tailor this README with your **actual GitHub username and LinkedIn link** so you can copy–paste it directly without editing placeholders?
+
