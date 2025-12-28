@@ -45,7 +45,7 @@ This repository is intended as:
 ![Landing Page](resume_builder_project/screenshots/landing.png)
 
 ### Authentication
-![Login](resume_builder_project/screenshots/login.png)
+![Auth](resume_builder_project/screenshots/auth.png)
 ![Register](resume_builder_project/screenshots/register.png)
 
 ### User Dashboard
@@ -131,6 +131,7 @@ soham334-resume-craft/
 ```
 
 ⚙️ Setup & Installation
+---
 Prerequisites
 
 Python 3.10 or higher
