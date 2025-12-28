@@ -39,6 +39,26 @@ This repository is intended as:
 
 ---
 
+## 🖼️ Screenshots
+
+### Landing Page
+![Landing Page](resume_builder_project/screenshots/landing.png)
+
+### Authentication
+![Login](resume_builder_project/screenshots/login.png)
+![Register](resume_builder_project/screenshots/register.png)
+
+### User Dashboard
+![Dashboard](resume_builder_project/screenshots/dashboard.png)
+
+### Resume Builder
+![Resume Form](resume_builder_project/screenshots/resume-form.png)
+
+### Resume Preview
+![Resume Preview](resume_builder_project/screenshots/resume-preview.png)
+
+---
+
 ## Core Features
 
 - Secure **user authentication** (login & registration)
