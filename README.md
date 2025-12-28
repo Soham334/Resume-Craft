@@ -170,37 +170,50 @@ cd frontend
 npm install
 npm run build
 
-📄 Usage
+---
 
-Register or log in as a user
+## 📄 Usage
 
-Create, edit, and manage resumes
+- Register or log in as a user  
+- Create, edit, and manage resumes  
+- View structured resume output  
+- Admin users can manage records via **Django Admin**
 
-View structured resume output
+---
 
-Admin users can manage records via Django Admin
+## 🧪 Testing
 
-🧪 Testing
+Run backend tests using:
 
-Run backend tests:
-
+```bash
 python manage.py test resumesite
+```
+---
 
-🚀 Roadmap & Enhancements
+## 🚀 Roadmap & Enhancements
 
-JWT-based authentication
+| Feature | Description |
+|---------|-------------|
+| Authentication | JWT-based secure authentication |
+| Customization | Multiple resume templates & layouts |
+| Export | Automated PDF generation |
+| Deployment | Docker-based containerization |
+| Hosting | Cloud deployment (AWS / Render / Railway) |
 
-Resume template customization
+---
 
-Automated PDF export
+## 📄 License
 
-Docker-based deployment
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for details.
 
-Cloud hosting (AWS / Render / Railway)
+<p align="center">
+  <em>
+    Built to demonstrate practical full-stack development using Django and React,
+    with emphasis on clean architecture and secure workflows.
+  </em>
+</p>
 
-📄 License
-
-This project is licensed under the MIT License.
-See the LICENSE file for details.
-
-<p align="center"> <em> Built to demonstrate practical full-stack development using Django and React, with emphasis on clean architecture and secure workflows. </em> </p> <p align="center"> <img src="https://img.shields.io/badge/Status-Active%20Development-success?style=flat-square" /> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-success?style=flat-square" />
+</p>
