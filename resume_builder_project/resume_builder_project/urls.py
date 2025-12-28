@@ -2,6 +2,8 @@
 
 from django.contrib import admin
 from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
 
 # 🛑 All custom DRF imports, DefaultRouter creation, and router.register calls MUST BE REMOVED from this file! 🛑
 
@@ -13,3 +15,5 @@ urlpatterns = [
     # This single line handles ALL URL traffic for your app (Experiments, React, API)
     path('', include('resumesite.urls')), 
 ]
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
