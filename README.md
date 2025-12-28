@@ -203,4 +203,4 @@ Cloud hosting (AWS / Render / Railway)
 This project is licensed under the MIT License.
 See the LICENSE file for details.
 
-<p align="center"> <em> Built to demonstrate practical full-stack development using Django and React, with emphasis on clean architecture and secure workflows. </em> </p> <p align="center"> <img src="https://img.shields.io/badge/Status-Active%20Development-success?style=flat-square" /> </p> ```
+<p align="center"> <em> Built to demonstrate practical full-stack development using Django and React, with emphasis on clean architecture and secure workflows. </em> </p> <p align="center"> <img src="https://img.shields.io/badge/Status-Active%20Development-success?style=flat-square" /> </p>
