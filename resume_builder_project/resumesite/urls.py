@@ -3,6 +3,7 @@
 from django.urls import path, include # <-- Added 'include' for API routing
 from . import views
 from django.views.generic import TemplateView 
+from django.contrib.auth import views as auth_views
 # --- NEW IMPORTS FOR DRF ---
 from rest_framework.routers import DefaultRouter
 
@@ -35,5 +36,11 @@ urlpatterns = [
 
     # CBV (Class-Based View for Experiment 3)
     path('resume-cbv/<int:pk>/', views.ResumeDetailView.as_view(), name='resume_detail_cbv'), 
-
-]
+    #logout
+path(
+    'logout/',
+    auth_views.LogoutView.as_view(
+        template_name='registration/logged_out.html'
+    ),
+    name='logout'
+),]

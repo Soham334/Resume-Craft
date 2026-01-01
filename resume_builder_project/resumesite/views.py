@@ -7,7 +7,8 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm 
 from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticated
-
+from django.contrib.auth import logout
+from django.shortcuts import render
 from .models import Resume
 from .forms import ResumeForm
 from .serializers import ResumeSerializer 
@@ -158,3 +159,8 @@ class ResumeViewSet(viewsets.ModelViewSet):
     def perform_update(self, serializer):
         # 3. Ensure the user cannot change ownership during an update
         serializer.save(user=self.request.user)
+        
+#LOGOUT   
+def custom_logout(request):
+    logout(request)
+    return render(request, 'registration/logged_out.html')

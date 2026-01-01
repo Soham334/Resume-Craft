@@ -24,7 +24,7 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "unsafe-dev-key")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get("DEBUG", "False") == "True"
+DEBUG = True
 
 ALLOWED_HOSTS = os.environ.get(
     "ALLOWED_HOSTS",
@@ -46,12 +46,14 @@ INSTALLED_APPS = [
     'rest_framework',
     'widget_tweaks',
 ]
-STATIC_URL = 'static/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-STATICFILES_DIRS = [BASE_DIR / "static"]
-STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / "static"]
-STATIC_ROOT = BASE_DIR / "staticfiles"
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / 'resumesite' / 'static',
+]
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
 MIDDLEWARE = [
